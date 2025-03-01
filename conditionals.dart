@@ -47,5 +47,8 @@ void main() {
     case '/':
       print("d / e = ${d / e}");
       break;
+    default:
+      print("Invalid");
+      break;
   }
 }
