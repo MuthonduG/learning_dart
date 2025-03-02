@@ -61,11 +61,9 @@ ageCalculator() {
           print("You are $currentAge and your invite will be sent in 48hrs");
           break;
         }
-        
       } on FormatException {
         print("Invalid value, try again");
-      }
-      catch (e) {
+      } catch (e) {
         print("Error message: $e");
       }
     } on FormatException {
@@ -75,3 +73,20 @@ ageCalculator() {
     }
   }
 }
+
+// lambda functions
+int lam1() => (3 + 4);
+
+void lam2(x, y) => x + y;
+
+void Function() a = () => print(3 + 4);
+
+// Higher order functions
+void total(x, y) {
+  return x + y;
+}
+
+void hof(int a, int b, Function total) {
+  total(a, b);
+}
+
