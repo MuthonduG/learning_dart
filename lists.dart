@@ -1,4 +1,7 @@
 void main() {
+  List<int> nums = [1, 3, 8];
+  print(nums);
+
   // lists
   var myList = [1, 2, 3];
   print(myList);
@@ -35,9 +38,7 @@ void main() {
   mixedList.remove("John");
   print(mixedList);
 
-
   // remove list at specific position
   mixedList.removeAt(1);
   print(mixedList);
-
 }

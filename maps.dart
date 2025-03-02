@@ -1,4 +1,7 @@
 void main() {
+  Map<int, String> maps = {1: 'a'};
+  print(maps);
+  
   // maps
   var toppings = {"john": "Peporoni", "Mary": "chhese"};
   print(toppings);
